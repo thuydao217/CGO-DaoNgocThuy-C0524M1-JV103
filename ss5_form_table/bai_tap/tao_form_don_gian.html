@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản</title>
+    <style>
+        form {
+            background: cyan;
+            padding: 10px;
+        }
+
+        .title {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            height: 70px;
+            width: auto;
+            background: coral;
+            text-align: center;
+        }
+        h1 {
+            display: flex;
+            font-weight: bold;
+            color: white;
+        }
+        .container
+        {
+            align-content: center;
+            justify-items: center;
+            width: auto;
+            background: white;
+        }
+        table
+        {
+            font-size: 30px;
+            margin: 0 auto;
+        }
+        td
+        {
+            padding: 0 30px;
+        }
+        input
+        {
+            font-size: 20px;
+            width: 1000px;
+        }
+        .check
+        {
+            width: 20px; height: 20px;
+        }
+        th
+        {
+            width: 60px;
+        }
+    </style>
+</head>
+    <body>
+    <form action="google.com.vn" method="post">
+        <div class="title">
+            <h1>SỞ THÍCH CỦA BẠN</h1>
+        </div>
+        <div class="container">
+            <table>
+                <tr>
+                    <td>Họ và tên</td>
+                    <td><input class="text" name="hoten" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input class="text" name="email" type="email"></td>
+                </tr>
+                <tr>
+                    <td>Sở thích</td>
+                    <td>
+                        <input class="check" type="checkbox" name="hobbie">
+                        <label>Thể thao</label>
+                        <input class="check" type="checkbox" name="hobbie">
+                        <label>Âm nhạc</label>
+                        <input class="check" type="checkbox" name="hobbie">
+                        <label>Đọc sách</label>
+                        <input class="check" type="checkbox" name="hobbie">
+                        <label>Lướt web</label>
+                        <input class="check" type="checkbox" name="hobbie">
+                        <label>Chơi game</label>
+                        <input class="check" type="checkbox" name="hobbie">
+                        <label>Điện ảnh</label>
+                        <input class="check" type="checkbox" name="hobbie">
+                        <label>Du lịch</label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    </body>
+</html>
