@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biến, kiểu dữ liệu và toán tử</title>
+</head>
+<body>
+<script>
+    //bai 1
+    document.write("bai 1")
+    document.write('<br/>')
+
+    let input_diem_Hoa;
+    let input_diem_Ly;
+    let input_diem_Sinh;
+
+    input_diem_Hoa = prompt("Diem Hoa");
+    input_diem_Ly = prompt("Diem Ly");
+    input_diem_Sinh = prompt("Diem Sinh");
+
+    let Hoa = parseInt(input_diem_Hoa);
+    let Ly = parseInt(input_diem_Ly);
+    let Sinh = parseInt(input_diem_Sinh);
+    let tb = (Hoa + Ly + Sinh)/3;
+    document.write("Diem TB: " +tb);
+    document.write('<br/>')
+    //bai 2
+    document.write("bai 2")
+    document.write('<br/>')
+
+    let Celsius = prompt("Nhiet do C");
+    let Fahrenhit = (Celsius * (9/5))+32;
+    document.write("Nhiet do F: " +Fahrenhit);
+    document.write('<br/>')
+
+    //bai 3
+    document.write("bai 3")
+    document.write('<br/>')
+
+    let R = prompt("Nhap ban kinh");
+    let Area = Math.PI * R ** 2;
+    document.write("Dien tich hinh tron:" +Area);
+    document.write('<br/>')
+    //bai 4
+    document.write("bai 4")
+    document.write('<br/>')
+
+    let Perimeter = Math.PI * 2 * R;
+    document.write("Chu vi hinh tron: "+Perimeter);
+</script>
+</body>
+</html>

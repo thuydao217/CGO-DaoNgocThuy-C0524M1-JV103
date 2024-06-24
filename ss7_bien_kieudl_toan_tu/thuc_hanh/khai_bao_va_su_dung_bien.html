@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Khai báo và sử dụng biến</title>
+</head>
+<body>
+<script>
+    //bai 1
+    let i = 10;
+    let f = 20.5
+    let b = true
+    let s = 'Hà Nội'
+    document.write("bai 1")
+    document.write('<br/>')
+    document.write('i = ' + i)
+    document.write('<br/>')
+    document.write('f = ' + f)
+    document.write('<br/>')
+    document.write('b = ' + b)
+    document.write('<br/>')
+    document.write('s = ' + s)
+    document.write('<br/>')
+    //bai2
+    let width = 20
+    let height = 10
+    let area = width * height
+    document.write("bai 2")
+    document.write('<br/>')
+    document.write('Area = ' + area)
+    //bai3
+    let a1 = parseInt(prompt("Nhập số a: "));
+    let b1 = parseInt(prompt("Nhập số b: "));
+    if (a1 % b1 === 0) {
+        alert(a1 + " là bội số của " + b1);
+    } else {
+        alert(a1 + " không phải là bội số của " + b1);
+    }
+</script>
+</body>
+</html>
